@@ -1,3 +1,3 @@
 
-#Curriculum Vitae en IONIC
-##Wendy Soto
+# Curriculum Vitae en IONIC
+## Wendy Soto
