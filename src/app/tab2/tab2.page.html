@@ -1,0 +1,115 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Datos Personales
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-app>
+    <ion-header translucent>
+      <ion-toolbar>
+        <ion-title>List</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content fullscreen>
+      <ion-list>
+        <ion-list-header>
+          Wendy Amanda Soto Andrade
+        </ion-list-header>
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="assets/icon/image/fingerprint.png">
+          </ion-avatar>
+          <ion-label>
+            <h2>Cédula:</h2>            
+            <p>0605478015</p>
+          </ion-label>
+        </ion-item>
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="assets/icon/image/marker.png">
+          </ion-avatar>
+          <ion-label>
+            <h2>Lugar de Nacimiento</h2>
+            <h3>Provincia</h3>
+            <p>Chimborazo</p>
+            <h3>Cantón</h3>
+            <p>Chunchi</p>
+            <h3>Parroquia</h3>
+            <p>Gonzol</p>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="assets/icon/image/calendar.png">
+          </ion-avatar>
+          <ion-label>
+            <h2>Fecha de Nacimiento</h2>
+            <p>9 de Julio de 1997</p>
+          </ion-label>
+        </ion-item>
+        
+
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="assets/icon/image/woman.png">
+          </ion-avatar>
+          <ion-label>
+            <h2>Estado civil</h2>
+            <p>Soltera</p>
+          </ion-label>
+        </ion-item>
+        
+
+        
+
+        <ion-item-sliding>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="assets/icon/image/drop.png">
+          </ion-avatar>
+          <ion-label>
+            <h2>Tipo de sangre</h2>            
+            <p>O+</p>
+          </ion-label>
+        </ion-item>
+      </ion-item-sliding>
+
+      <ion-item-sliding>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="assets/icon/image/home.png">
+          </ion-avatar>
+          <ion-label>
+            <h2>Dirección Domiciliaria</h2>            
+            <p>Comité del Pueblo, 18 de Noviembre, José Bustos y E15G</p>
+          </ion-label>
+        </ion-item>
+      </ion-item-sliding>
+
+
+      
+      </ion-list>
+
+      <ion-list>
+        <ion-item-sliding>
+          <ion-item>
+            <ion-label>Item</ion-label>
+          </ion-item>
+          <ion-item-options side="end">
+            <ion-item-option (click)="unread(item)">Unread</ion-item-option>
+          </ion-item-options>
+        </ion-item-sliding>
+      
+          
+      </ion-list>
+
+      
+    </ion-content>
+  </ion-app>
+</ion-content>
